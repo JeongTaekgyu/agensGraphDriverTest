@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:agensgraph://localhost:6439/postgres
+    username: agens
+    password: agens
+    host: localhost
+    driver-class-name: net.bitnine.agensgraph.Driver
+#    driver-class-name: org.postgresql.Driver
+
+  jpa:
+  #  hibernate.dialect: org.hibernate.dialect.PostgreSQLdialect
+    database: postgresql
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true # jpa? ???? ??? ??? ???.
+        format_sql: true  # ??? format?? ??? ???.
+        use_sql_comments: false
+        default_batch_fetch_size: 100
