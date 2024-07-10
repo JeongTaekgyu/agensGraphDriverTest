@@ -1,11 +1,21 @@
 spring:
   datasource:
-    url: jdbc:agensgraph://localhost:6439/postgres
-    username: agens
-    password: agens
+    url: jdbc:postgresql://localhost:8432/postgres
+    username: age
+    password: age
     host: localhost
-    driver-class-name: net.bitnine.agensgraph.Driver
-#    driver-class-name: org.postgresql.Driver
+    driver-class-name: org.postgresql.Driver
+#    target0:
+#      url: jdbc:postgresql://localhost:8439/postgres
+#      username: age2
+#      password: age2
+#      host: localhost
+#      driver-class-name: org.postgresql.Driver
+#    url: jdbc:agensgraph://localhost:6439/postgres
+#    username: agens
+#    password: agens
+#    host: localhost
+#    driver-class-name: net.bitnine.agensgraph.Driver
 
   jpa:
   #  hibernate.dialect: org.hibernate.dialect.PostgreSQLdialect

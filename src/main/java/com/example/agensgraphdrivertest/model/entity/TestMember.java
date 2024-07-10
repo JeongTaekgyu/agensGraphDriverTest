@@ -1,4 +1,4 @@
-package com.example.agensgraphdrivertest.model;
+package com.example.agensgraphdrivertest.model.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
